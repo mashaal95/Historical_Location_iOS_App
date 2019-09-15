@@ -7,23 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		053CEE0C23225A75001D146F /* Place.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 053CEE0A23225A75001D146F /* Place.xcdatamodeld */; };
+		053CEE0F23225B20001D146F /* HistPlace+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053CEE0D23225B20001D146F /* HistPlace+CoreDataClass.swift */; };
+		053CEE1023225B20001D146F /* HistPlace+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053CEE0E23225B20001D146F /* HistPlace+CoreDataProperties.swift */; };
+		053CEE162324347F001D146F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053CEE152324347F001D146F /* ImagePicker.swift */; };
+		053CEE1C23246D3F001D146F /* LocationDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053CEE1B23246D3F001D146F /* LocationDetailController.swift */; };
 		057194A1231B660B004D7809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057194A0231B660B004D7809 /* AppDelegate.swift */; };
 		057194A3231B660B004D7809 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057194A2231B660B004D7809 /* ViewController.swift */; };
 		057194A6231B660B004D7809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 057194A4231B660B004D7809 /* Main.storyboard */; };
-		057194A9231B660B004D7809 /* Assignment_1_Final.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 057194A7231B660B004D7809 /* Assignment_1_Final.xcdatamodeld */; };
-		057194AB231B660C004D7809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 057194AA231B660C004D7809 /* Assets.xcassets */; };
 		057194AE231B660C004D7809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 057194AC231B660C004D7809 /* LaunchScreen.storyboard */; };
+		057194B7231B6612004D7809 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 057194B6231B6612004D7809 /* MapKit.framework */; };
+		057194B9231B669D004D7809 /* LocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057194B8231B669D004D7809 /* LocationTableViewController.swift */; };
+		057194BB231B66C1004D7809 /* NewLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057194BA231B66C1004D7809 /* NewLocationViewController.swift */; };
+		057194BD231B66DE004D7809 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057194BC231B66DE004D7809 /* MapViewController.swift */; };
+		057194BF231B6701004D7809 /* LocationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057194BE231B6701004D7809 /* LocationAnnotation.swift */; };
+		05BD310423275FD900B32A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05BD310323275FD900B32A7C /* Assets.xcassets */; };
+		05BD31062327639900B32A7C /* EditLocViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD31052327639900B32A7C /* EditLocViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		053CEE0B23225A75001D146F /* Place.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Place.xcdatamodel; sourceTree = "<group>"; };
+		053CEE0D23225B20001D146F /* HistPlace+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistPlace+CoreDataClass.swift"; sourceTree = "<group>"; };
+		053CEE0E23225B20001D146F /* HistPlace+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistPlace+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		053CEE152324347F001D146F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		053CEE1B23246D3F001D146F /* LocationDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailController.swift; sourceTree = "<group>"; };
 		0571949D231B660B004D7809 /* Assignment_1_Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment_1_Final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		057194A0231B660B004D7809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		057194A2231B660B004D7809 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		057194A5231B660B004D7809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		057194A8231B660B004D7809 /* Assignment_1_Final.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Assignment_1_Final.xcdatamodel; sourceTree = "<group>"; };
-		057194AA231B660C004D7809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		057194AD231B660C004D7809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		057194AF231B660C004D7809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		057194B6231B6612004D7809 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		057194B8231B669D004D7809 /* LocationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewController.swift; sourceTree = "<group>"; };
+		057194BA231B66C1004D7809 /* NewLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLocationViewController.swift; sourceTree = "<group>"; };
+		057194BC231B66DE004D7809 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		057194BE231B6701004D7809 /* LocationAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAnnotation.swift; sourceTree = "<group>"; };
+		057194C3231BAAD3004D7809 /* Monash Caulfield.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Monash Caulfield.gpx"; path = "../../Monash Caulfield.gpx"; sourceTree = "<group>"; };
+		05BD30EC232666AA00B32A7C /* Sidney Myer Music Bowl.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Sidney Myer Music Bowl.gpx"; path = "../Sidney Myer Music Bowl.gpx"; sourceTree = "<group>"; };
+		05BD30EE232666AA00B32A7C /* Heide Museum of Modern Art.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Heide Museum of Modern Art.gpx"; path = "../Heide Museum of Modern Art.gpx"; sourceTree = "<group>"; };
+		05BD30EF232666AA00B32A7C /* Rippon Lea Estate.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Rippon Lea Estate.gpx"; path = "../Rippon Lea Estate.gpx"; sourceTree = "<group>"; };
+		05BD30F0232666AA00B32A7C /* The Ian Potter Centre.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "The Ian Potter Centre.gpx"; path = "../The Ian Potter Centre.gpx"; sourceTree = "<group>"; };
+		05BD30F3232666AA00B32A7C /* ICI House.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "ICI House.gpx"; path = "../ICI House.gpx"; sourceTree = "<group>"; };
+		05BD30F4232666AA00B32A7C /* LaBassa Mansion.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "LaBassa Mansion.gpx"; path = "../LaBassa Mansion.gpx"; sourceTree = "<group>"; };
+		05BD30F5232666AA00B32A7C /* St Pauls Cathedral.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "St Pauls Cathedral.gpx"; path = "../St Pauls Cathedral.gpx"; sourceTree = "<group>"; };
+		05BD30F6232666AA00B32A7C /* Melbourne Cricket Ground.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Melbourne Cricket Ground.gpx"; path = "../Melbourne Cricket Ground.gpx"; sourceTree = "<group>"; };
+		05BD30F72326692E00B32A7C /* Melbourne CBD Flinders Street.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Melbourne CBD Flinders Street.gpx"; path = "../Melbourne CBD Flinders Street.gpx"; sourceTree = "<group>"; };
+		05BD30F82326692F00B32A7C /* Melbourne Cricket Ground.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Melbourne Cricket Ground.gpx"; path = "../Melbourne Cricket Ground.gpx"; sourceTree = "<group>"; };
+		05BD30F92326692F00B32A7C /* Royal Heritage Building.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Royal Heritage Building.gpx"; path = "../Royal Heritage Building.gpx"; sourceTree = "<group>"; };
+		05BD30FB2326692F00B32A7C /* Royal Botanic Gardens Victoria.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Royal Botanic Gardens Victoria.gpx"; path = "../Royal Botanic Gardens Victoria.gpx"; sourceTree = "<group>"; };
+		05BD30FC2326695F00B32A7C /* The Scots' Church.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "The Scots' Church.gpx"; path = "../The Scots' Church.gpx"; sourceTree = "<group>"; };
+		05BD30FE2326699B00B32A7C /* Werribee Park.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Werribee Park.gpx"; path = "../Werribee Park.gpx"; sourceTree = "<group>"; };
+		05BD310323275FD900B32A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05BD31052327639900B32A7C /* EditLocViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditLocViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				057194B7231B6612004D7809 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +76,24 @@
 		05719494231B660B004D7809 = {
 			isa = PBXGroup;
 			children = (
+				05BD30FE2326699B00B32A7C /* Werribee Park.gpx */,
+				05BD30FC2326695F00B32A7C /* The Scots' Church.gpx */,
+				05BD30F72326692E00B32A7C /* Melbourne CBD Flinders Street.gpx */,
+				05BD30F82326692F00B32A7C /* Melbourne Cricket Ground.gpx */,
+				05BD30FB2326692F00B32A7C /* Royal Botanic Gardens Victoria.gpx */,
+				05BD30F92326692F00B32A7C /* Royal Heritage Building.gpx */,
+				05BD30EE232666AA00B32A7C /* Heide Museum of Modern Art.gpx */,
+				05BD30F3232666AA00B32A7C /* ICI House.gpx */,
+				05BD30F4232666AA00B32A7C /* LaBassa Mansion.gpx */,
+				05BD30F6232666AA00B32A7C /* Melbourne Cricket Ground.gpx */,
+				05BD30EF232666AA00B32A7C /* Rippon Lea Estate.gpx */,
+				05BD30EC232666AA00B32A7C /* Sidney Myer Music Bowl.gpx */,
+				05BD30F5232666AA00B32A7C /* St Pauls Cathedral.gpx */,
+				05BD30F0232666AA00B32A7C /* The Ian Potter Centre.gpx */,
+				057194C3231BAAD3004D7809 /* Monash Caulfield.gpx */,
 				0571949F231B660B004D7809 /* Assignment_1_Final */,
 				0571949E231B660B004D7809 /* Products */,
+				057194B5231B6612004D7809 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +108,32 @@
 		0571949F231B660B004D7809 /* Assignment_1_Final */ = {
 			isa = PBXGroup;
 			children = (
+				053CEE1B23246D3F001D146F /* LocationDetailController.swift */,
+				053CEE152324347F001D146F /* ImagePicker.swift */,
+				053CEE0D23225B20001D146F /* HistPlace+CoreDataClass.swift */,
+				053CEE0E23225B20001D146F /* HistPlace+CoreDataProperties.swift */,
 				057194A0231B660B004D7809 /* AppDelegate.swift */,
 				057194A2231B660B004D7809 /* ViewController.swift */,
 				057194A4231B660B004D7809 /* Main.storyboard */,
-				057194AA231B660C004D7809 /* Assets.xcassets */,
 				057194AC231B660C004D7809 /* LaunchScreen.storyboard */,
 				057194AF231B660C004D7809 /* Info.plist */,
-				057194A7231B660B004D7809 /* Assignment_1_Final.xcdatamodeld */,
+				057194B8231B669D004D7809 /* LocationTableViewController.swift */,
+				057194BA231B66C1004D7809 /* NewLocationViewController.swift */,
+				057194BC231B66DE004D7809 /* MapViewController.swift */,
+				057194BE231B6701004D7809 /* LocationAnnotation.swift */,
+				053CEE0A23225A75001D146F /* Place.xcdatamodeld */,
+				05BD310323275FD900B32A7C /* Assets.xcassets */,
+				05BD31052327639900B32A7C /* EditLocViewController.swift */,
 			);
 			path = Assignment_1_Final;
+			sourceTree = "<group>";
+		};
+		057194B5231B6612004D7809 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				057194B6231B6612004D7809 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +168,11 @@
 				TargetAttributes = {
 					0571949C231B660B004D7809 = {
 						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -126,7 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				057194AE231B660C004D7809 /* LaunchScreen.storyboard in Resources */,
-				057194AB231B660C004D7809 /* Assets.xcassets in Resources */,
+				05BD310423275FD900B32A7C /* Assets.xcassets in Resources */,
 				057194A6231B660B004D7809 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +212,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				057194B9231B669D004D7809 /* LocationTableViewController.swift in Sources */,
+				057194BD231B66DE004D7809 /* MapViewController.swift in Sources */,
 				057194A3231B660B004D7809 /* ViewController.swift in Sources */,
 				057194A1231B660B004D7809 /* AppDelegate.swift in Sources */,
-				057194A9231B660B004D7809 /* Assignment_1_Final.xcdatamodeld in Sources */,
+				057194BF231B6701004D7809 /* LocationAnnotation.swift in Sources */,
+				057194BB231B66C1004D7809 /* NewLocationViewController.swift in Sources */,
+				053CEE1C23246D3F001D146F /* LocationDetailController.swift in Sources */,
+				053CEE0F23225B20001D146F /* HistPlace+CoreDataClass.swift in Sources */,
+				053CEE162324347F001D146F /* ImagePicker.swift in Sources */,
+				05BD31062327639900B32A7C /* EditLocViewController.swift in Sources */,
+				053CEE0C23225A75001D146F /* Place.xcdatamodeld in Sources */,
+				053CEE1023225B20001D146F /* HistPlace+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,13 +425,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		057194A7231B660B004D7809 /* Assignment_1_Final.xcdatamodeld */ = {
+		053CEE0A23225A75001D146F /* Place.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				057194A8231B660B004D7809 /* Assignment_1_Final.xcdatamodel */,
+				053CEE0B23225A75001D146F /* Place.xcdatamodel */,
 			);
-			currentVersion = 057194A8231B660B004D7809 /* Assignment_1_Final.xcdatamodel */;
-			path = Assignment_1_Final.xcdatamodeld;
+			currentVersion = 053CEE0B23225A75001D146F /* Place.xcdatamodel */;
+			path = Place.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

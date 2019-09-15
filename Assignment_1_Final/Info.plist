@@ -2,6 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>This application requires camera permissions to capture your photos</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This application requires camera permissions to capture your photos</string>
+	<key>NSLocationUsageDescription</key>
+	<string> The application uses this information to show you your location.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string> The application uses this information to show you your location.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string> The application uses this information to show you your location.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string> The application uses this information to show you your location.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
